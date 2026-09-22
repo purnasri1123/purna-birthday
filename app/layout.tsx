@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Purna | 23 September",
+  title: "Her Story 🌸",
   description: "A little birthday surprise...",
 };
 
