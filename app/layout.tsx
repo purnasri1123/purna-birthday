@@ -2,6 +2,14 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
+export const metadata = {
+  title: "For Purna 🩷💙",
+  description: "A little birthday surprise...",
+  icons: {
+    icon: "/favicon.png",
+  },
+};
+
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
