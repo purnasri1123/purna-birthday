@@ -10,7 +10,7 @@ export function useTimeMode() {
   const [mode, setMode] = useState<TimeMode | null>(null);
 
   useEffect(() => {
-    const hour = 24//new Date().getHours();
+    const hour = new Date().getHours();
 
     if (hour >= 5 && hour < 18) {
       setMode("morning");
