@@ -611,8 +611,6 @@ export default function FinalWish() {
                     🦋 ✦ 🦋
                   </motion.div>
 
-             
-
                 </div>
 
               </motion.div>
