@@ -611,38 +611,7 @@ export default function FinalWish() {
                     🦋 ✦ 🦋
                   </motion.div>
 
-                  {/* =================================================
-    START AGAIN
-================================================= */}
-
-<motion.div
-  initial={{
-    opacity: 0,
-    y: 15,
-  }}
-  animate={{
-    opacity: 1,
-    y: 0,
-  }}
-  transition={{
-    delay: 3,
-    duration: 0.8,
-  }}
-  className="mt-12"
->
-  <Link
-    href="/"
-    className="group inline-flex items-center gap-3 rounded-full border border-white/20 bg-white/[0.05] px-7 py-3 text-xs tracking-[0.2em] text-white/65 backdrop-blur-md transition-all duration-300 hover:scale-105 hover:bg-white/10 hover:text-white"
-  >
-    <span className="transition-transform duration-300 group-hover:-translate-x-1">
-      ←
-    </span>
-
-    START THE JOURNEY AGAIN
-
-    <span className="text-white/40">✦</span>
-  </Link>
-</motion.div>
+             
 
                 </div>
 
