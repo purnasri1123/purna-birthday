@@ -15,9 +15,6 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "For Purna 🩷💙",
   description: "A little birthday surprise...",
-  icons: {
-    icon: "/favicon.png",
-  },
 };
 
 export default function RootLayout({
